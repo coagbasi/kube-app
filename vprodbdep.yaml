@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: vprodb
-        image: coagbasi/vprofiledb:V1
+        image: coagbasi/vprofiledb:latest
         volumeMounts:
           - mountPath: /var/lib/mysql
             name: vpro-db-data
